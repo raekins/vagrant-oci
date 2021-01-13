@@ -2,7 +2,8 @@
 
 Vagrant providers each require a custom provider-specific box format.
 This folder shows the example contents of a box for the `oci` provider.
-To turn this into a box:
+
+To build the box:
 
 ```
 $ tar cvzf oci.box ./metadata.json ./Vagrantfile
